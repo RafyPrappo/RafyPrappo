@@ -30,7 +30,7 @@ I believe all programming languages are just **different syntaxes for the same i
 ## 🌐 Connect with Me
 
 [![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rafy.prappo01@gmail.com)
-[![Discord](https://img.shields.io/badge/Discord-rafy_prappo%23-5865F2?style=for-the-badge&logo=discord&logoColor=white)]([https://discordapp.com/users/886126261040254012](https://discord.com/channels/@me))
+[![Discord](https://img.shields.io/badge/Discord-rafy_prappo-5865F2?style=for-the-badge&logo=discord&logoColor=white)]([https://discordapp.com/users/886126261040254012](https://discord.com/channels/@me))
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Arrafy_Prappo-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arrafy-prappo-953b1a251/)
 [![Facebook](https://img.shields.io/badge/Facebook-Rafy_Prappo-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/rrafy.prappo/)
 
