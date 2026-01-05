@@ -4,7 +4,7 @@
 Strengthening my fundamentals in **C**, **C#**, and **Lua**, while applying my **Python** experience to build smarter software, tools, and games.
 
 🧑‍🤝‍🧑 **I’m looking to collaborate on**  
-Projects involving **AI**, **machine learning**, **game development**, or **developer tools** — anything that challenges creativity and logic.
+Projects involving **AI**, **machine learning**, **game development**, or **developer tools**, anything that challenges creativity and logic.
 
 🤝 **I’m looking for help with**  
 - Applying **AI/ML** to real-world software or games  
@@ -23,7 +23,7 @@ Projects involving **AI**, **machine learning**, **game development**, or **deve
 - How I approach learning new languages through **problem-solving**
 
 ⚡ **Fun fact**  
-I believe all programming languages are just **different syntaxes for the same ideas** — the real challenge lies in solving problems, not memorizing keywords.
+I believe all programming languages are just **different syntaxes for the same ideas**, the real challenge lies in solving problems, not memorizing keywords.
 
 ---
 
@@ -44,7 +44,6 @@ I believe all programming languages are just **different syntaxes for the same i
 ![Lua](https://img.shields.io/badge/Lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![ROS](https://img.shields.io/badge/ROS-%230A0FF9.svg?style=for-the-badge&logo=ros&logoColor=white)
 ![OpenGL](https://img.shields.io/badge/OpenGL-%23FFFFFF.svg?style=for-the-badge&logo=opengl)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
