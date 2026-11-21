@@ -1,31 +1,11 @@
 <svg width="900" height="300" viewBox="0 0 900 300" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     
-    <radialGradient id="cardGlow" cx="685" cy="60" r="220" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.18" />
-      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
-    </radialGradient>
-
-    
     <linearGradient id="topHighlight" x1="510" y1="0" x2="860" y2="0" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#06b6d4" stop-opacity="0" />
       <stop offset="50%" stop-color="#06b6d4" stop-opacity="0.9" />
       <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
     </linearGradient>
-
-    
-    <linearGradient id="sheenGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
-      <stop offset="35%" stop-color="#06b6d4" stop-opacity="0.16" />
-      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.22" />
-      <stop offset="65%" stop-color="#06b6d4" stop-opacity="0.16" />
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
-    </linearGradient>
-
-    
-    <clipPath id="cardClip">
-      <rect x="510" y="28" width="350" height="244" rx="14" />
-    </clipPath>
 
     <style>
       .mono { font-family: ui-monospace, 'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace; }
@@ -33,25 +13,16 @@
       .sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
 
       .ping { animation: pingAnim 2s cubic-bezier(0, 0, 0.2, 1) infinite; }
-      .sheen { animation: sheenSweep 5.5s ease-in-out infinite; }
 
       @keyframes pingAnim {
         0% { opacity: 0.85; }
         70%, 100% { opacity: 0.15; }
-      }
-
-      @keyframes sheenSweep {
-        0% { transform: translate(-220px, -180px) rotate(-35deg); }
-        24%, 100% { transform: translate(380px, 320px) rotate(-35deg); }
       }
     </style>
   </defs>
 
   
   <rect x="1" y="1" width="898" height="298" rx="16" fill="#09090b" stroke="#27272a" stroke-width="1.2" />
-
-  
-  <rect x="1" y="1" width="898" height="298" rx="16" fill="url(#cardGlow)" />
 
   
   
@@ -66,29 +37,23 @@
   <text x="44" y="258" fill="#a1a1aa" font-size="13.5" font-weight="400" class="sans">full-stack software, and gamification.</text>
 
   
-  <rect x="510" y="28" width="350" height="244" rx="14" fill="#0c0c0f" fill-opacity="0.92" stroke="#ffffff" stroke-opacity="0.14" stroke-width="1" />
+  <rect x="510" y="28" width="350" height="244" rx="14" fill="#0c0c0f" stroke="#27272a" stroke-width="1" />
 
   
   <rect x="510" y="28" width="350" height="2" rx="1" fill="url(#topHighlight)" />
 
   
-  <g clip-path="url(#cardClip)">
-    <rect x="460" y="0" width="460" height="58" fill="url(#sheenGrad)" class="sheen" />
-  </g>
-
-  
   <circle cx="534" cy="54" r="5.5" fill="#06b6d4" fill-opacity="0.35" class="ping" />
   <circle cx="534" cy="54" r="3" fill="#06b6d4" />
   <text x="548" y="58" fill="#f4f4f5" font-size="10.5" font-weight="600" letter-spacing="1.6" class="mono">SYS.ONLINE</text>
-  <text x="840" y="58" text-anchor="end" fill="#a1a1aa" font-size="10.5" letter-spacing="1.2" class="mono">DHAKA · GMT+6</text>
-  <line x1="528" y1="72" x2="842" y2="72" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1" />
+  <line x1="528" y1="72" x2="842" y2="72" stroke="#27272a" stroke-width="1" />
 
   
   <text x="530" y="96" fill="#a1a1aa" font-size="10" letter-spacing="1.3" class="mono">GITHUB VELOCITY (12M)</text>
   <text x="840" y="96" text-anchor="end" fill="#71717a" font-size="10" class="mono">@RafyPrappo</text>
 
   
-  <rect x="528" y="106" width="314" height="102" rx="10" fill="#050507" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1" />
+  <rect x="528" y="106" width="314" height="102" rx="10" fill="#050507" stroke="#27272a" stroke-width="1" />
 
   
   <g transform="translate(544, 122)">
@@ -123,11 +88,11 @@
   </g>
 
   
-  <rect x="528" y="220" width="314" height="36" rx="9" fill="#ffffff" fill-opacity="0.025" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1" />
+  <rect x="528" y="220" width="314" height="36" rx="9" fill="#09090b" stroke="#27272a" stroke-width="1" />
   <text x="542" y="242" fill="#71717a" font-size="10" class="mono">BUILDING:</text>
   <text x="606" y="242" fill="#f4f4f5" font-size="10.5" font-weight="600" class="mono">Block Fall (Unity)</text>
 
   
-  <rect x="780" y="228" width="52" height="20" rx="4" fill="#09090b" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1" />
+  <rect x="780" y="228" width="52" height="20" rx="4" fill="#0c0c0f" stroke="#27272a" stroke-width="1" />
   <text x="806" y="241" text-anchor="middle" fill="#06b6d4" font-size="9" font-weight="600" letter-spacing="0.8" class="mono">IN DEV</text>
 </svg>
