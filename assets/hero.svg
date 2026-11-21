@@ -1,1 +1,92 @@
+<svg width="900" height="240" viewBox="0 0 900 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1" />
+    </pattern>
 
+    <linearGradient id="scanGrad" x1="0" y1="0" x2="160" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0" />
+      <stop offset="50%" stop-color="#10b981" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0" />
+    </linearGradient>
+
+    <style>
+      .mono { font-family: ui-monospace, 'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace; }
+      .display { font-family: 'Bebas Neue', Impact, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+      .sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+
+      .pulse { animation: pulseAnim 2.2s ease-in-out infinite; }
+      .ring { transform-origin: 765px 120px; animation: spin 22s linear infinite; }
+      .ring-rev { transform-origin: 765px 120px; animation: spinRev 14s linear infinite; }
+      .scan { animation: scanMove 5s ease-in-out infinite; }
+
+      @keyframes pulseAnim {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.25; }
+      }
+      @keyframes spin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      @keyframes spinRev {
+        from { transform: rotate(360deg); }
+        to { transform: rotate(0deg); }
+      }
+      @keyframes scanMove {
+        0% { transform: translateX(-160px); }
+        100% { transform: translateX(900px); }
+      }
+    </style>
+  </defs>
+
+  
+  <rect x="1" y="1" width="898" height="238" rx="12" fill="#09090b" stroke="#27272a" stroke-width="1.5" />
+  <rect x="1" y="1" width="898" height="238" rx="12" fill="url(#grid)" />
+
+  
+  <path d="M 16 28 L 16 16 L 28 16" stroke="#52525b" stroke-width="1.5" />
+  <path d="M 872 16 L 884 16 L 884 28" stroke="#52525b" stroke-width="1.5" />
+  <path d="M 16 212 L 16 224 L 28 224" stroke="#52525b" stroke-width="1.5" />
+  <path d="M 872 224 L 884 224 L 884 212" stroke="#52525b" stroke-width="1.5" />
+
+  
+  <circle cx="42" cy="38" r="4" fill="#10b981" class="pulse" />
+  <text x="55" y="42" fill="#e4e4e7" font-size="11" font-weight="600" letter-spacing="1.5" class="mono">AVAILABLE FOR WORK</text>
+  <text x="210" y="42" fill="#3f3f46" font-size="11" class="mono">/</text>
+  <text x="226" y="42" fill="#71717a" font-size="11" letter-spacing="1" class="mono">DHAKA, BD · BRACU CSE '26</text>
+
+  
+  <text x="38" y="116" fill="#ffffff" font-size="60" font-weight="800" letter-spacing="3" class="display">ARRAFY PRAPPO</text>
+  <text x="40" y="144" fill="#a1a1aa" font-size="15" font-weight="400" class="sans">Full-Stack Engineer · Flutter Developer · Multimodal ML Researcher</text>
+
+  
+  <g transform="translate(38, 164)">
+    <rect x="0" y="0" width="96" height="24" rx="5" fill="#141417" stroke="#27272a" />
+    <text x="48" y="16" text-anchor="middle" fill="#d4d4d8" font-size="10.5" font-weight="600" class="mono">MERN STACK</text>
+
+    <rect x="106" y="0" width="110" height="24" rx="5" fill="#141417" stroke="#27272a" />
+    <text x="161" y="16" text-anchor="middle" fill="#d4d4d8" font-size="10.5" font-weight="600" class="mono">FLUTTER / DART</text>
+
+    <rect x="226" y="0" width="116" height="24" rx="5" fill="#141417" stroke="#27272a" />
+    <text x="284" y="16" text-anchor="middle" fill="#d4d4d8" font-size="10.5" font-weight="600" class="mono">PYTHON · ML</text>
+
+    <rect x="352" y="0" width="112" height="24" rx="5" fill="#141417" stroke="#27272a" />
+    <text x="408" y="16" text-anchor="middle" fill="#d4d4d8" font-size="10.5" font-weight="600" class="mono">CYBERSECURITY</text>
+  </g>
+
+  
+  <circle cx="765" cy="120" r="54" stroke="#27272a" stroke-width="1" stroke-dasharray="3 5" />
+  <circle cx="765" cy="120" r="40" stroke="#52525b" stroke-width="1.25" stroke-dasharray="22 14 6 14" class="ring" />
+  <circle cx="765" cy="120" r="24" stroke="#10b981" stroke-opacity="0.7" stroke-width="1.25" stroke-dasharray="14 10" class="ring-rev" />
+  <circle cx="765" cy="120" r="3" fill="#10b981" />
+  <line x1="765" y1="58" x2="765" y2="70" stroke="#3f3f46" stroke-width="1" />
+  <line x1="765" y1="170" x2="765" y2="182" stroke="#3f3f46" stroke-width="1" />
+  <line x1="703" y1="120" x2="715" y2="120" stroke="#3f3f46" stroke-width="1" />
+  <line x1="815" y1="120" x2="827" y2="120" stroke="#3f3f46" stroke-width="1" />
+
+  
+  <line x1="38" y1="208" x2="862" y2="208" stroke="#1f1f23" stroke-width="1" />
+  <rect x="0" y="207" width="160" height="1.5" fill="url(#scanGrad)" class="scan" />
+  <text x="38" y="226" fill="#52525b" font-size="10" letter-spacing="0.8" class="mono">THESIS // NEUROVENTURA (3D MRI + XGBOOST)</text>
+  <text x="862" y="226" text-anchor="end" fill="#52525b" font-size="10" letter-spacing="0.8" class="mono">GITHUB.COM/RAFYPRAPPO</text>
+</svg>
